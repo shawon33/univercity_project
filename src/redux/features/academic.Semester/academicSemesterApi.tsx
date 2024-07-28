@@ -5,7 +5,7 @@ import { baseApi } from "../../api/baseApi";
         getAllSemesters: builder.query({
           query: () => ({
             url: '/academic-semesters',
-            method: 'POST',
+            method: 'GET',
           }),
         }),
       }),
